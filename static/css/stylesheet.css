@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'meslolgsdz_nerd_fontregular';
+    src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_regular_nerd_font_complete-webfont.woff2') format('woff2'),
+         url('https://pond.computer/static/fonts/meslo_lg_s_dz_regular_nerd_font_complete-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'meslolgsdz_nerd_fontBdIt';
+    src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_italic_nerd_font_complete-webfont.woff2') format('woff2'),
+         url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_italic_nerd_font_complete-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'meslolgsdz_nerd_fontbold';
+    src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_nerd_font_complete-webfont.woff2') format('woff2'),
+         url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_nerd_font_complete-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'meslolgsdz_nerd_fontitalic';
+    src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_italic_nerd_font_complete-webfont.woff2') format('woff2'),
+         url('https://pond.computer/static/fonts/meslo_lg_s_dz_italic_nerd_font_complete-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 13px;
+}
+
+body {
+    color: black;
+    font-family: 'meslolgsdz_nerd_fontregular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.2;
+    height: 100%;
+    max-width: 85ch; padding: 1ch; margin: auto;
+    background: white;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'meslolgsdz_nerd_fontbold';
+    font-weight: bold;
+    font-style: normal;
+}
+p {
+    font-family: 'meslolgsdz_nerd_fontregular';
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+a:hover {
+  color: #06e;
+  background: #e8f4d0;
+}
+a:visited {
+  color: #0b0080;
+}
+a:active {
+  color: #01FF70;
+}
+.links {
+    font-size: 13px;
+}
+
+footer {
+  padding-top: 2em;
+  color: gray;
+}
+*::-moz-selection {
+  background: #c6e48b;
+  color: #000;
+}
+
+*::selection {
+  background: #c6e48b;
+  color: #000;
+}
+
+a::-moz-selection {
+  background: #c6e48b;
+  color: #0645ad;
+}
+
+a::selection {
+  background: #c6e48b;
+  color: #0645ad;
+}
