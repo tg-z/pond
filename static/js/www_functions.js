@@ -42,50 +42,50 @@ function setBG(){
 	}
 
 function launchDoc(myURL,sizeX,sizeY) {
-	myArgs  = "width=" + sizeX + "," 
-			+ "height=" + sizeY + "," 
-			+ "location=0," 
+	myArgs  = "width=" + sizeX + ","
+			+ "height=" + sizeY + ","
+			+ "location=0,"
 			+ "menubar=0,"
 			+ "resizable=0,"
 			+ "scrollbars=0,"
-			+ "status=0,"             
+			+ "status=0,"
 			+ "titlebar=0,"
 			+ "toolbar=0,"
 			+ "hotkeys=0,"
-			+ "screenx=0,"    
+			+ "screenx=0,"
 			+ "screeny=0,"
 			+ "left=40,"
 			+ "top=40";
 	myWindow = open(myURL,"", myArgs);
 	}
-        
+
 function launchDocScroll(myURL,sizeX,sizeY) {
-	myArgs  = "width=" + sizeX + "," 
-			+ "height=" + sizeY + "," 
-			+ "location=0," 
+	myArgs  = "width=" + sizeX + ","
+			+ "height=" + sizeY + ","
+			+ "location=0,"
 			+ "menubar=0,"
 			+ "resizable=0,"
 			+ "scrollbars=0,"
-			+ "status=0,"             
+			+ "status=0,"
 			+ "titlebar=0,"
 			+ "toolbar=0,"
 			+ "hotkeys=0,"
-			+ "screenx=0,"    
+			+ "screenx=0,"
 			+ "screeny=0,"
 			+ "left=40,"
 			+ "top=40";
 	myWindow = open(myURL,"", myArgs);
 	}
-        
+
 function launchPic(myUrl,myName,myTitle,sizeX,sizeY) {
 	myTarget = myName;
-	myArgs  = "width=" + sizeX + "," 
-			+ "height=" + sizeY + "," 
-			+ "location=0," 
+	myArgs  = "width=" + sizeX + ","
+			+ "height=" + sizeY + ","
+			+ "location=0,"
 			+ "menubar=0,"
 			+ "resizable=1,"
 			+ "scrollbars=0,"
-			+ "status=0,"             
+			+ "status=0,"
 			+ "titlebar=0,"
 			+ "toolbar=0,"
 			+ "hotkeys=0,"
@@ -104,13 +104,13 @@ myTarget = "itemWin"+menuItems[itemNo][0];
 
 if (menuItems[itemNo][5]>0) {
 	if (navigator.appVersion.indexOf("Macintosh") != -1){
-		myArgs  = "width=" + menuItems[itemNo][5] + "," 
-			+ "height=" + menuItems[itemNo][6] + "," 
-			+ "location=0," 
+		myArgs  = "width=" + menuItems[itemNo][5] + ","
+			+ "height=" + menuItems[itemNo][6] + ","
+			+ "location=0,"
 			+ "menubar=0,"
 			+ "resizable=0,"
 			+ "scrollbars=0,"
-			+ "status=0,"             
+			+ "status=0,"
 			+ "titlebar=0,"
 			+ "toolbar=0,"
 			+ "hotkeys=0,"
@@ -122,13 +122,13 @@ if (menuItems[itemNo][5]>0) {
 		myURL = "/planet_02b/items/" + menuItems[itemNo][1] + menuItems[itemNo][2]
 		myWindow = open(myURL, myTarget, myArgs );
 	} else {
-		myArgs  = "width=" + menuItems[itemNo][5] + "," 
-			+ "height=" + (menuItems[itemNo][6]+166) + "," 
-			+ "location=0," 
+		myArgs  = "width=" + menuItems[itemNo][5] + ","
+			+ "height=" + (menuItems[itemNo][6]+166) + ","
+			+ "location=0,"
 			+ "menubar=0,"
 			+ "resizable=0,"
 			+ "scrollbars=0,"
-			+ "status=0,"             
+			+ "status=0,"
 			+ "titlebar=0,"
 			+ "toolbar=0,"
 			+ "hotkeys=0,"
@@ -141,7 +141,7 @@ if (menuItems[itemNo][5]>0) {
 		myWindow = open("", myTarget, myArgs );
 		myWindow.document.write('<html><title>Planet Particle '+menuItems[itemNo][1]+'</title>');
 		//myWindow.document.write('<body bgcolor=#000000 marginwidth=0 marginheight=0 topmargin=0 leftmargin=0 link=#666666 vlink=#666666>test</body></html>');
-	
+
 		myWindow.document.write('<frameset rows="100,*,66" border=0 frameborder=0 framespacing=0>');
 		myWindow.document.write('<frame src="/planet_02b/top.html" NAME="top_frame" SCROLLING=no MARGINHEIGHT=0 MARGINWIDTH=0 NORESIZE>');
 
@@ -154,7 +154,7 @@ if (menuItems[itemNo][5]>0) {
 		}
 
 		myWindow.document.write('<frame src="/planet_02b/bottom.html" NAME="bot_frame" SCROLLING=no MARGINHEIGHT=2 MARGINWIDTH=2 NORESIZE>');
-		myWindow.document.write('</frameset></html>');			
+		myWindow.document.write('</frameset></html>');
 
 		myWindow.top_frame.document.write('<body bgcolor='+darkCol+'><img src="/planet_02b/rockets/'+gifName+'" width=100 height=100>');
 		myWindow.top_frame.document.write('</html>');
@@ -166,7 +166,7 @@ if (menuItems[itemNo][5]>0) {
 	if (menuItems[itemNo][6]>0) {
 		myWindow = open(menuItems[itemNo][2], myTarget);
 	} else {
-		
+
 	}
 }
 }
@@ -175,8 +175,8 @@ if (menuItems[itemNo][5]>0) {
 // ## add item to list
 // ############################################################################################
 
-function AddItem(count,pDate,pURL,pGIF,pTXT,Sizex,pSizeY,pAbout) {
-  menuItems[count] = new Array(count,pDate,pURL,pGIF,pTXT,Sizex,pSizeY,pAbout)
+function AddItem(count,pDate,pURL,pTXT,Sizex,pSizeY,pAbout) {
+  menuItems[count] = new Array(count,pDate,pURL,pTXT,Sizex,pSizeY,pAbout)
 }
 
 
@@ -212,14 +212,13 @@ function drawarray(tab){
 // ## show main menu with applet
 // ############################################################################################
 
-function Showmenu(subjectText,doDrawItems){
-
+function Showmenu(subjectText,doDrawIte
 //alert(navigator.appVersion);
 
 if (doDrawItems==1) {
 	document.write("<table width=100% cellpadding=1 cellspacing=0 border=0>");
 	document.write("<tr><td bgColor="+darkCol+"><img src=http://planet.dk/planet_02b/items/space.gif width=100 height=1></td><td height=200 align=center bgColor="+darkCol+">");
-	document.write("<font color="+liteCol+"><a href='mailto:beam@planet.dk?Subject=Inquiry...'><img src=http://planet.dk/planet_02b/rockets/"+gifName+" border=0></a>");  
+	document.write("<font color="+liteCol+"><a href='mailto:beam@planet.dk?Subject=Inquiry...'><img src=http://planet.dk/planet_02b/rockets/"+gifName+" border=0></a>");
 	document.write("</td><td bgColor="+darkCol+" align=right valign=top><font style='color:"+liteCol+"'>archive:<br>");
 	document.write("<a style='color:"+liteCol+";' href='/fonts/'>fonts</a><br>");
 	document.write("<a style='color:"+liteCol+";' href='/96_index.html'>96</a><br>");
@@ -233,7 +232,7 @@ if (doDrawItems==1) {
 } else {
 	document.write("<table width=100% cellpadding=1 cellspacing=0 border=0>");
 	document.write("<tr><td bgColor="+darkCol+"><img src=http://planet.dk/planet_02b/items/space.gif width=100 height=1></td><td height=200 align=center bgColor="+darkCol+">");
-	document.write("<font color="+liteCol+"><a href='mailto:beam@planet.dk?Subject="+subjectText+"'><img src=http://planet.dk/planet_02b/rockets/"+gifName+" border=0></a>");  
+	document.write("<font color="+liteCol+"><a href='mailto:beam@planet.dk?Subject="+subjectText+"'><img src=http://planet.dk/planet_02b/rockets/"+gifName+" border=0></a>");
 	document.write("</td><td bgColor="+darkCol+" align=right valign=top><font style='color:"+liteCol+"'>archive:<br>");
 	document.write("<a style='color:"+liteCol+";' href='/fonts/'>fonts</a><br>");
 	document.write("<a style='color:"+liteCol+";' href='/96_index.html'>96</a><br>");
@@ -271,17 +270,23 @@ function showFontStyles(){
 // addItem([no],[date],[URL],[iconimagename],[header],[popupwindowsizex (if zero, url will launch in new browser)],[popupwindowsizey (if zero, no link will be active)],[extended comments for popup window])
 
 
-AddItem(373,"2007.02.01.","game_teaser.html",                                   "game_teaser.jpg",  "<b>Upcoming game teaser #4</b><br>Prepare for the launch of a great new Planet game. This time we've teamed up with <a href='http://www.soupgames.net/' target='_new'><u>Soup Games</u></a> and spent over a year producing an innovative casual game, which combines sand-box gameplay with the mechanics of the traditional matching puzzler. We expect to launch on major download channels within a couple of months!",0,0,"")
-AddItem(374,"2006.11.14.","http://www.fontriver.com/award/",                    "font_river.gif",   "<b>Best Designer Award 2006</b></a><br>The Planet has just received The Font River 2006 Best Designer Award for its beautiful and trend setting font designs. Check out the <a href='http://www.fontriver.com/' target='_new'><u>Award site</u></a> or <a href='/fonts/' target='_top'><u>download our fonts</u></a> and start making your world a prettier place :-)",0,1,"")
-AddItem(375,"2006.02.24.","http://www.planet.dk/transscriber/",                 "transscriber.gif", "<b>transScriber v1.7 launched</b><br>Mads Rydahl of The Planet has just released a new and improved version of his shareware interview transcribtion tool. Have a look at the new feature set of this neat little tool.",0,1,"")
-AddItem(376,"2004.11.22.","press.html",                                         "computerworld.jpg","<b>Press release: Shroomz</b><br></a>After winning international acclaim at the 2004 Digital Entertainment Awards, we have received much <a href='http://www.computerworld.dk/default.asp?Mode=2&ArticleID=26176' target='_empty'><u>attention from the Danish press</u></a>. To assist journalists seeking information about our company, The Planet has issued a general statement.", 600,450, "scroll")                                          "xmas.gif",         "<b>Holiday Greetings!</b><br>Merry Christmas, all the best wishes for the New Year, and a couple of words about the future...",    500,520,    "")
-AddItem(385,"2002.08.01.","press.html",                                         "press.jpg",        "<b>Press Release: Legal info</b><br>Our company has been reconstructed to form 'The&nbsp;Planet&nbsp;A/S' a Danish incorporated.",    600,450,    "scroll")
-AddItem(386,"2002.07.26.","bounce.html",                                        "bounce.jpg",       "<b>SW3D Concept prototype</b><br>An early proto of a 3D game concept we hope to start developing next year. NB: All graphics are placeholders. ;-)",                              640,580,    "<b>Try jumping off the side of the level...</b><br>Ctrl+SHIFT zooms the camera, use the buttons and leveleditor in the lower part of the screen to modify the level and invert controls when jumping around on the back side of the tiles...")
-AddItem(387,"2002.07.15.","logo.html",                                          "logo.jpg",         "<b>New logo design released</b>",                              525,525,    "The Planet have announced a new take on the familiar rocket logo which has been with the company since its incept in 1995. We are quite pleased with the new, tighter monochrome look. Its really a natural progression from the previous incarnations.")
-AddItem(388,"2002.07.02.","http://club.lego.com/clubgames/dreamz/",             "dreamz.gif",       "<b>Upcoming game teaser #2</b><br>Watch this space for the upcoming Planet games...",0,1,"")
-AddItem(389,"2002.07.01.","http://club.lego.com/clubgames/beltz/",              "beltz.gif",        "<b>Upcoming game teaser #1</b><br>Watch this space for the upcoming Planet games...",0,1,"")
-AddItem(390,"2002.06.25.","http://rocketpunchmagazine.com/finn/planet.php",     "rocketpunch.gif",  "<b>RocketPunch Magazine interviews The Planet</b><br>Hip NYC anime magazine RocketPunch requested an audience with The Planet, which we gracefully accepted. The interview features lengthy comments to our relationship with Lego.com...",0,0,"")
-AddItem(391,"2002.06.20.","http://web.archive.org/web/20040401203902/http://www.setpixel.com/content/?ID=30",      "setpixel.jpg",     "<b>Interview at SetPixel.com</b><br>Charles Formans excellent Shockwave community site SetPixel requested an interview with The Planet. Check it out people.",    0,1,        "")
-AddItem(393,"2002.02.01.","http://www.planet.dk/projects/galidor/",             "galidor.jpg",      "<b>Galidor Map Navigator</b><br>The Planet produced an atmospheric 3D web knowledge base interface for Galidor, the LEGO / Fox Kids sci-fi TV series. Its our first fully Flash-based production, and were pretty pleased with it - you might want to note the use of a couple of new Planet fonts designed especially for the piece, namely Texalis and Universalis.",0,1,"")
-AddItem(394,"2001.08.15.","4x4.html",                                           "4x4.jpg",          "<b>4x4 Extreme Rally</b><br>Developed for LEGO to coincide with the release of the Technic Offroaders line of products, this 3D racing game takes you on a wild ride through a barren frontier world. Earn awards racing and upgrade your 4x4 to tackle ever-crazier terrain.",    580,320,    "")
-AddItem(395,"2001.05.08.","http://www.planet.dk/projects/skateboard/",          "sk8.jpg",          "<b>Peppers Skateboard Challenge</b><br>Skate and trick your way into the world league with this Planet take on popular extreme racers SSX and WipeOut. Collect stars to upgrade your board and avatar.",0,1,"")
+AddItem(1,"2020.07.25.","https://www.niwrc.org/resource-topic/missing-and-murdered-native-women",                                   "game_teaser.jpg",  "<b>Upcoming game teaser #4</b><br>Prepare for the launch of a great new Planet game. This time we've teamed up with <a href='http://www.soupgames.net/' target='_new'><u>Soup Games</u></a> and spent over a year producing an innovative casual game, which combines sand-box gameplay with the mechanics of the traditional matching puzzler. We expect to launch on major download channels within a couple of months!",0,0,"")
+AddItem(2,"2020.07.25.","https://blacktranslivesmatter.carrd.co/",                    "font_river.gif",   "<b>Best Designer Award 2006</b></a><br>The Planet has just received The Font River 2006 Best Designer Award for its beautiful and trend setting font designs. Check out the <a href='http://www.fontriver.com/' target='_new'><u>Award site</u></a> or <a href='/fonts/' target='_top'><u>download our fonts</u></a> and start making your world a prettier place :-)",0,1,"")
+AddItem(3,"2020.07.25.","https://educateurself.carrd.co/",                 "transscriber.gif", "<b>transScriber v1.7 launched</b><br>Mads Rydahl of The Planet has just released a new and improved version of his shareware interview transcribtion tool. Have a look at the new feature set of this neat little tool.",0,1,"")
+AddItem(4,"2020.07.25.","https://blacklivesmatter.com/",                                         "computerworld.jpg","<b>Press release: Shroomz</b><br></a>After winning international acclaim at the 2004 Digital Entertainment Awards, we have received much <a href='http://www.computerworld.dk/default.asp?Mode=2&ArticleID=26176' target='_empty'><u>attention from the Danish press</u></a>. To assist journalists seeking information about our company, The Planet has issued a general statement.", 600,450, "scroll")                                          "xmas.gif",         "<b>Holiday Greetings!</b><br>Merry Christmas, all the best wishes for the New Year, and a couple of words about the future...",    500,520,    "")
+AddItem(5,"2020.07.25.","https://guidetoallyship.com/",                                         "press.jpg",        "<b>Press Release: Legal info</b><br>Our company has been reconstructed to form 'The&nbsp;Planet&nbsp;A/S' a Danish incorporated.",    600,450,    "scroll")
+AddItem(6,"2020.07.25.","https://chechnyalgbt.carrd.co/",                                        "bounce.jpg",       "<b>SW3D Concept prototype</b><br>An early proto of a 3D game concept we hope to start developing next year. NB: All graphics are placeholders. ;-)",                              640,580,    "<b>Try jumping off the side of the level...</b><br>Ctrl+SHIFT zooms the camera, use the buttons and leveleditor in the lower part of the screen to modify the level and invert controls when jumping around on the back side of the tiles...")
+AddItem(7,"2020.07.25.","https://issuesintheworld.carrd.co/",                                          "logo.jpg",         "<b>New logo design released</b>",                              525,525,    "The Planet have announced a new take on the familiar rocket logo which has been with the company since its incept in 1995. We are quite pleased with the new, tighter monochrome look. Its really a natural progression from the previous incarnations.")
+AddItem(8,"2020.07.25.","https://yemencrisis.carrd.co/",             "dreamz.gif",       "<b>Upcoming game teaser #2</b><br>Watch this space for the upcoming Planet games...",0,1,"")
+AddItem(9,"2020.07.25.","https://blacklivesmatters.carrd.co/",              "beltz.gif",        "<b>Upcoming game teaser #1</b><br>Watch this space for the upcoming Planet games...",0,1,"")
+AddItem(10,"2020.07.25.","https://getinformed.carrd.co/",     "rocketpunch.gif",  "<b>RocketPunch Magazine interviews The Planet</b><br>Hip NYC anime magazine RocketPunch requested an audience with The Planet, which we gracefully accepted. The interview features lengthy comments to our relationship with Lego.com...",0,0,"")
+AddItem(11,"2020.07.25.","https://weneedtotalkaboutpapua.carrd.co/",      "setpixel.jpg",     "<b>Interview at SetPixel.com</b><br>Charles Formans excellent Shockwave community site SetPixel requested an interview with The Planet. Check it out people.",    0,1,        "")
+AddItem(12,"2020.07.25.","http://pfw.guide/",             "galidor.jpg",      "<b>Galidor Map Navigator</b><br>The Planet produced an atmospheric 3D web knowledge base interface for Galidor, the LEGO / Fox Kids sci-fi TV series. Its our first fully Flash-based production, and were pretty pleased with it - you might want to note the use of a couple of new Planet fonts designed especially for the piece, namely Texalis and Universalis.",0,1,"")
+AddItem(13,"2020.07.25.","https://ally.wiki/",                                           "4x4.jpg",          "<b>4x4 Extreme Rally</b><br>Developed for LEGO to coincide with the release of the Technic Offroaders line of products, this 3D racing game takes you on a wild ride through a barren frontier world. Earn awards racing and upgrade your 4x4 to tackle ever-crazier terrain.",    580,320,    "")
+AddItem(14,"2020.07.25.","https://helpourindia.carrd.co/",          "sk8.jpg",          "<b>Peppers Skateboard Challenge</b><br>Skate and trick your way into the world league with this Planet take on popular extreme racers SSX and WipeOut. Collect stars to upgrade your board and avatar.",0,1,"")
+AddItem(15,"2020.07.25.","https://www.feministsearchtool.nl/",)
+AddItem(16,"2020.07.25.","https://maskon.zone/",)
+AddItem(17,"2020.07.25.","https://www.gwern.net/Search",)
+AddItem(18,"2020.07.25.","https://www.privacytools.io/",)
+AddItem(19,"2020.07.25.","https://ssd.eff.org/",)
+AddItem(20,"2020.07.25.","https://github.com/uclaconditional/anti-racism-resources",)
