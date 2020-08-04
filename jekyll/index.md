@@ -1,6 +1,10 @@
-      tg-z is offline
+---
+layout: default
+---
 
-# pond.computer
+# `POND.COMPUTER`
+
+### last updated: {{ 'now' | date: "%Y-%m-%d" }}
 
 welcome to my space on the internet. i want this website to be used for positive change. whether or not you do something with the information on this site is up to you. please take time to learn how to be an ally and educate yourself on important issues.
 
@@ -49,90 +53,4 @@ also see the [library](https://pond.computer/library.html) to read some texts.
 
 [venmo](https://venmo.com/code?user_id=2365100933513216403)
 
-[![](https://webring.xxiivv.com/icon.black.svg)
-](https://webring.xxiivv.com/#xxiivv)
- [https://pond.computer/](https://pond.computer/)
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-
-
+<a href="https://webring.xxiivv.com/#xxiivv" target="_blank" rel="noopener noreferrer"><img src="https://webring.xxiivv.com/icon.black.svg" width="50px" height="50px" alt="webring"/></a>
