@@ -3,7 +3,7 @@
 	usage
 	-----
 
-	$ curl -s pond.computer/c/<post_id>
+	$ curl -s pond.computer/c/<number>
 	
 	i hope to update this fairly often, wish me luck :^]
 
@@ -11,5 +11,5 @@
 	-----
 
 	2: wtf is a clog?
-	3: tldr
+	3: bye bye, big tech
 	4: rainbow clog!
