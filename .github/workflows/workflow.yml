@@ -1,0 +1,2 @@
+- name: RSyncer Action
+  uses: Pendect/action-rsyncer@v1.1.0
