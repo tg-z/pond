@@ -1,56 +1,15 @@
-	2020-09-16 bye bye, big tech
+2020-09-17
+bye bye, big tech
 
-	hi, i think a lot about privacy on and offline. i want to get to
-	a place where i no longer depend on products of mass consumption from
-	FAANG (facebook,apple,amazon,netflix,google/alphabet). ive been slowly
-	exporting my data from facebook, instagram, google, and fitbit and 
-	backing it all up to prepare for when i actually "delete" my accounts. 
-	unfortunately thats all i can do because a majority of these companies
-	are known to store users data on their servers for years. the cloud
-	scares me. the control i have over my own data almost makes me feel
-	hopeless in the fight for privacy + security. but i wont let it stop
-	me from doing everything i can to protect myself on the internet.
-	right now, i am nowhere near reaching my goal and ive faced 
-	several challenges in the process. my plan goes something like this...
-	
-	- google -> takeout data √
-       \
-	 - gmail -> emails archived √
-	
-	- fitbit -> takeout data √
-	
-	- facebook -> takeout data √
-       \ 
-	 - instagram -> takeout data
-	
-	- reddit -> takeout data √
-
-	- hypothesis -> takeout data √    
-
-	promnesia ~ * . *  .
-
-┌─────────────────────────────────┐ ┌────────────────────────────┐ ┌─────────────────┐
-│ 💾       HPI sources            │ │  💾    plaintext files     │ │  other sources  │
-│ (twitter, reddit, pocket, etc.) │ │ (org-mode, markdown, etc.) │ │ (user-defined)  │
-└─────────────────────────────────┘ └────────────────────────────┘ └─────────────────┘
-                                ⇘⇘              ⇓⇓               ⇙⇙
-                                 ⇘⇘             ⇓⇓              ⇙⇙
-                                 ┌──────────────────────────────┐
-                                 │ 🔄    promnesia indexer      │
-                                 |        (runs regularly)      │
-                                 └──────────────────────────────┘
-                                                ⇓⇓
-                                 ┌──────────────────────────────┐
-                                 │ 💾    visits database        │
-                                 │       (promnesia.sqlite)     │
-                                 └──────────────────────────────┘
-                                                ⇓⇓
-                                 ┌──────────────────────────────┐
-                                 │ 🔗    promnesia server       │
-                                 |       (always running)       |
-                                 └──────────────────────────────┘
-                                                ⇣⇣
-                                 ┌─────────────────────────────────┐
-                                 │ 🌐      web browser             ├───────────────────────────┐
-                                 |           firefox               ⇐  💾 local browser history |
-                                 └─────────────────────────────────┴───────────────────────────┘
+hi, i think a lot about privacy on and offline. i want to get to
+a place where i no longer depend on products of mass consumption from
+FAANG (facebook,apple,amazon,netflix,google/alphabet). ive been slowly
+exporting my data from facebook, instagram, google, and fitbit and 
+backing it all up to prepare for when i actually "delete" my accounts. 
+unfortunately thats all i can do because a majority of these companies
+are known to store users data on their servers for years. the cloud
+scares me. the control i have over my own data almost makes me feel
+hopeless in the fight for privacy + security. but i wont let it stop
+me from doing everything i can to protect myself on the internet.
+right now, i am nowhere near reaching my goal and ive faced 
+several challenges in the process. my plan goes something like this...

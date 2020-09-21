@@ -77,15 +77,11 @@ html {
   h1 {
     font-size: 2em;
     color: black;
-    background: #AABAE9;
+    background: white;
     border: 4px solid #7D7DBB;
     border-top: 4px solid #7D7DBB;
-    margin: -20px -20px 20px -20px;
     padding: 20px;
-    margin-top: 10px ;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 40px;
+    margin-top: 10px;
   }
   h2 {
     font-size: 2em;
@@ -107,34 +103,27 @@ html {
   }
   a:hover {
     color: black;
-    background: #AABAE9;
-  }
-  a:visited {
-    color: black;
   }
   a:active {
     color: lightyellow;
   }
   .links {
     font-size: 13px;
-    background: #AABAE9;
+    background: white;
     border: 4px solid #7D7DBB;
     border-top: 4px solid #7D7DBB;
     border-bottom: 4px solid #7D7DBB;
-    -moz-border-radius: 45px;
-    -webkit-border-radius: 45px;
-    border-radius: 45px;
   }
   footer {
     padding-top: 2em;
   }
   *::-moz-selection {
-    background: #cc99cc;
-    color: #000;
+    background: black;
+    color: white;
   }
   *::selection {
-    background: #cc99cc;
-    color: #000;
+    background: black;
+    color: white;
   }
   a::-moz-selection {
     background: #64B196;
