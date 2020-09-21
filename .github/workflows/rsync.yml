@@ -1,2 +1,0 @@
-- name: rsync deploy
-  uses: Pendect/action-rsyncer@v1.1.0
