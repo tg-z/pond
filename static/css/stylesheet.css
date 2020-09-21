@@ -116,6 +116,7 @@ html {
   }
   footer {
     padding-top: 2em;
+    padding-bottom: 3em;
   }
   *::-moz-selection {
     background: black;
