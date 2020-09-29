@@ -118,6 +118,9 @@ html {
     padding-top: 2em;
     padding-bottom: 3em;
   }
+  table {
+	  table-layout: fixed;
+}
   *::-moz-selection {
     background: black;
     color: white;
