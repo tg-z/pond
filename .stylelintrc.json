@@ -45,10 +45,10 @@
       "height"
     ],
     "indentation": [
-      2,
+      4,
       {
 	"except": ["block"],
-        "message": "Please use 2 spaces for indentation.",
+        "message": "Please use 4 spaces for indentation.",
         "severity": "error"
       }
     ]

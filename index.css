@@ -57,6 +57,7 @@ a::-moz-selection {
 }
 .navbar {
     color: white;
+    background-color: #7D7DBB;
     text-align: right;
     position: relative;
     display: flex;
