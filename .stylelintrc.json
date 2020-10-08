@@ -1,0 +1,33 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order",
+    "stylelint-csstree-validator"
+    
+  ],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "csstree/validator": true,
+    "max-empty-lines": 2,
+    "unit-allowed-list": ["em", "ch", "%", "px"],
+    "order/properties-order": [
+      "width",
+      "height"
+    ],
+    "color-hex-case": [
+      "lower",
+      {
+         "message": "lowercase letters are easier to distinguish from numbers."
+      }
+    ],
+    "indentation": [
+      4,
+      {
+	"except": ["block"],
+        "message": "Please use 2 spaces for indentation.",
+        "severity": "warning"
+      }
+    ]
+  }
+}
+
