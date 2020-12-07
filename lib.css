@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'meslolgsdz_nerd_fontregular';
     src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_regular_nerd_font_complete-webfont.woff2') format('woff2'),
-         url('https://pond.computer/static/fonts/meslo_lg_s_dz_regular_nerd_font_complete-webfont.woff') format('woff');
+        url('https://pond.computer/static/fonts/meslo_lg_s_dz_regular_nerd_font_complete-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'meslolgsdz_nerd_fontBdIt';
     src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_italic_nerd_font_complete-webfont.woff2') format('woff2'),
-         url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_italic_nerd_font_complete-webfont.woff') format('woff');
+        url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_italic_nerd_font_complete-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'meslolgsdz_nerd_fontbold';
     src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_nerd_font_complete-webfont.woff2') format('woff2'),
-         url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_nerd_font_complete-webfont.woff') format('woff');
+        url('https://pond.computer/static/fonts/meslo_lg_s_dz_bold_nerd_font_complete-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -25,94 +25,117 @@
 @font-face {
     font-family: 'meslolgsdz_nerd_fontitalic';
     src: url('https://pond.computer/static/fonts/meslo_lg_s_dz_italic_nerd_font_complete-webfont.woff2') format('woff2'),
-         url('https://pond.computer/static/fonts/meslo_lg_s_dz_italic_nerd_font_complete-webfont.woff') format('woff');
+        url('https://pond.computer/static/fonts/meslo_lg_s_dz_italic_nerd_font_complete-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
+
 html {
-  font-size: 100%;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-size: 13px;
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 13px;
 }
+
 @media only screen {
-  font-size: 2em;
-  background: #AABAE9;
-  border-bottom: 4px solid #7D7DBB;
-  margin: -20px -20px 20px -20px;
-  padding: 20px;
-  main {
-    border: 4px solid #7D7DBB;
+    font-size: 2em;
+    background: #aabae9;
+    border-bottom: 4px solid #7d7dbb;
+    margin: -20px -20px 20px -20px;
+    padding: 20px;
+
+main {
+    border: 4px solid #7d7dbb;
     margin: 0 auto;
     max-width: 700px;
     padding: 20px;
-  }
-  body {
+}
+
+body {
     color: black;
-    background-color: #A6C885;
+    background-color: #a6c885;
     font-family: 'Arial, Helvitica';
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 1.2;
     height: 100%;
-    max-width: 85ch; padding: 1ch;
+    max-width: 85ch;
+    padding: 1ch;
     margin: auto;
-  }
-  h1, h2, h3, h4, h5 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'meslolgsdz_nerd_fontbold';
     font-weight: bold;
     font-style: normal;
-  }
-  p {
+}
+
+p {
     font-family: 'meslolgsdz_nerd_fontregular';
     font-size: 13px;
     font-weight: normal;
     font-style: normal;
-  }
-  h1 {
+}
+
+h1 {
     font-size: 2em;
     color: black;
     background: white;
-    border: 4px solid #7D7DBB;
-    border-top: 4px solid #7D7DBB;
+    border: 4px solid #7d7dbb;
+    border-top: 4px solid #7d7dbb;
     padding: 20px;
     margin-top: 10px;
-  }
-  h2 {
+}
+
+h2 {
     font-size: 2em;
-  }
-  h3 {
+}
+
+h3 {
     font-size: 1.5em;
-  }
-  h4 {
+}
+
+h4 {
     font-size: 1.2em;
-  }
-  h5 {
+}
+
+h5 {
     font-size: 1em;
-  }
-  h6 {
-    font-size: 0.9em;
-  }
-  a {
+}
+
+h6 {
+    font-size: .9em;
+}
+
+a {
     text-decoration: underline;
-  }
-  a:hover {
+}
+
+a:hover {
     color: black;
-  }
-  a:active {
+}
+
+a:active {
     color: lightyellow;
-  }
-  .links {
+}
+
+.links {
     font-size: 13px;
     background: white;
-    border: 4px solid #7D7DBB;
-    border-top: 4px solid #7D7DBB;
-    border-bottom: 4px solid #7D7DBB;
-  }
-  .navbar {
+    border: 4px solid #7d7dbb;
+    border-top: 4px solid #7d7dbb;
+    border-bottom: 4px solid #7d7dbb;
+}
+
+.navbar {
     color: white;
+    float: right;
     text-align: right;
     position: relative;
     display: flex;
@@ -120,11 +143,12 @@ html {
     align-items: center;
     justify-content: space-between;
     padding: .5rem 1rem;
-  }
-  .navbar-nav {
+}
+
+.navbar-nav {
     color: white;
-    border: 4px solid #7D7DBB;
-    background-color: #7D7DBB;
+    border: 4px solid #7d7dbb;
+    background-color: #7d7dbb;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -135,40 +159,45 @@ html {
     margin-bottom: 0;
     list-style: none;
     max-width: 15%;
-  }
-  .navbar-nav .nav-link {
+}
+
+.navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
-  }
+}
 
-  footer {
+footer {
     padding-top: 2px;
     padding-bottom: 2px;
-  }
-  table {
+}
+
+table {
     color: white;
-    border: 4px solid #7D7DBB;
-    background-color: #7D7DBB;
+    border: 4px solid #7d7dbb;
+    background-color: #7d7dbb;
     padding-top: 2px;
     padding-bottom: 4px;
     max-width: 700px;
     table-layout: fixed;
-  }
-  *::-moz-selection {
-    background: white;
-    color: black;
-  }
-  *::selection {
-    background: white;
-    color: black;
-  }
-  a::-moz-selection {
-    background: none;
-    color: white;
-  }
-  a::selection {
-    background: none;
-    color: white;
-  }
 }
 
+*::-moz-selection {
+    background: white;
+    color: black;
+}
+
+*::selection {
+    background: white;
+    color: black;
+}
+
+a::-moz-selection {
+    background: none;
+    color: white;
+}
+
+a::selection {
+    background: none;
+    color: white;
+}
+}

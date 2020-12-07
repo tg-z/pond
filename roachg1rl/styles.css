@@ -1,0 +1,52 @@
+html {
+  --page-bg: lavender;
+}
+
+@font-face {
+  font-family: og-emoji;
+  src: url(../static/fonts/og-dcm-emoji.woff);
+}
+
+.og {
+  font-family: og-emoji, sans-serif;
+}
+
+body {
+  background-color: lavender;
+  margin: auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.container {
+  font-size: 15px;
+  color: black;
+  background-color: lavender;
+}
+
+.block {
+  padding: 10px;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: #C0C0C0;
+  border-width: 1px;
+}
+
+ul,
+li { 
+  border-color: black;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-shadow: 1px 1px 8px #000;
+}
+.socials {
+}

@@ -9,9 +9,8 @@
     "linebreaks": "unix", 
     "unit-case": "lower",
     "color-hex-case": "lower",
-    "function-allowed-list": ["hex", "rgb"],
+    "function-allowed-list": ["hex", "rgb", "url", "format"],
     "no-eol-whitespace": true,
-    "defaultSeverity": "error",
     "ignoreFiles": ["**/*/*.js", "**static/fonts/*", "**static/css/palette.css", "in.css"],
     "no-empty-first-line": true,
     "color-named": "always-where-possible",
@@ -39,7 +38,7 @@
     "value-list-max-empty-lines": 0,
     "selector-class-pattern": "^([a-z][a-z0-9]*)(_[a-z0-9]+)*$",
     "max-empty-lines": 1,
-    "unit-allowed-list": ["em", "ch", "%", "px"],
+    "unit-allowed-list": ["em", "ch", "%", "px", "rem"],
     "order/properties-order": [
       "width",
       "height"
