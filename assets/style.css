@@ -14,6 +14,12 @@ a:hover { text-shadow: 1px 1px 8px grey; transition: 0.2s all ease; }
 
 blockquote { text-align: justify; }
 
+svg { max-width: 100%; width: 2em; }
+
+svg path { fill: black; }
+
+svg:hover path, svg:focus path { text-shadow: 1px 1px 8px grey; transition: 0.2s all ease; }
+
 main { padding: 0 40px; max-width: 100vh; min-height: 80%; }
 
 .container { max-width: 100vh; margin: 0 auto; }
