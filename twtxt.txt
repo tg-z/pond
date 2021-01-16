@@ -1,0 +1,21 @@
+# .---..-.-.-..---..-..-..---.
+# `| |'| | | |`| |' >  < `| |'
+#  `-' `-----' `-' '-'`-` `-'
+# nick = tg-z
+# name = serafina 
+# url = https://pond.computer/twtxt.txt
+# github = https://github.com/tg-z
+# masto = https://mastodon.social/@telnet
+
+2020-02-20T06:20:46-08:00	raw pasta
+2020-02-24T17:15:00-08:00	nomore nomore
+2020-03-03T00:26:07-08:00	hey mom, tell me the names of the trees
+2020-05-29T13:48:51-07:00	wow i suck at twtxting
+2020-08-05T22:22:10-07:00	@<lucidiot https://tilde.town/~lucidiot/twtxt.txt> (re: mastodon + twtxt crossposter) hey, ive been meaning to do this too, but i haven't used txtnish. i currently use twet (https://github.com/quite/twet) which is coded in go. i think im going to migrate to txtnish because im more comfortable with shell scripting. do you have your txtnish config hosted somewhere for reference? thanks :)
+2020-09-20T03:01:41-07:00	i feel so relieved, on oct 16 my facebook account will be officially deleted :)
+2020-09-20T19:59:32-07:00	my dad had a dream he met bladee
+2020-09-20T20:17:01-07:00	rsync is a lifesaver
+2020-09-20T20:21:40-07:00	exclusive tweets here https://pond.computer/twtxt.txt
+2020-10-20T03:02:33-07:00	pre-release of arena-chan-dl can be found here https://github.com/tg-z/arena-chan-dl
+2020-10-20T03:04:18-07:00	and if you have node, run $ npm i -g arena-chan-dl
+2020-12-11T06:35:26-08:00	so far enjoying this plain text mood tracker https://git.sr.ht/~antoniogurgel/mood
