@@ -1,0 +1,91 @@
+*, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+*, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body { color: black; font-family: "Helvetica", sans-serif; font-size: 1.1rem; background-color: #F0F8FF; line-height: 1.2; height: 100%; /*-webkit-font-smoothing: antialiased;*/max-width: 70ch; padding: 2ch; margin: auto; }
+
+tr, td { font-size: 1.1rem; line-height: 1.2; }
+
+h1, h2, h3, h4{ margin-top: 30px; }
+
+a { color: black; text-decoration: underline; }
+
+a:hover { text-shadow: 1px 1px 8px grey; transition: 0.2s all ease; }
+
+blockquote { text-align: justify; }
+
+svg { max-width: 100%; width: 2em; }
+
+svg path { fill: black; }
+
+svg:hover path, svg:focus path { text-shadow: 1px 1px 8px grey; transition: 0.2s all ease; }
+
+main { padding: 0 40px; max-width: 100vh; min-height: 80%; }
+
+.container { max-width: 100vh; margin: 0 auto; }
+
+footer { text-align: center; padding: 40px; clear: both; position: relative; display: block; }
+
+ol { list-style-type: none; padding: 1rem 0; }
+
+ul { list-style: circle; }
+
+ul.noPoints { list-style: none; padding: 0; list-style-type: none; }
+
+tr:hover { background-color: none; }
+
+th, td { padding: 5px; text-align: left; }
+
+td { height: 50px; vertical-align: center; text-align: center; }
+
+table { width: 100%; }
+
+.header { text-align: center; margin: 0 auto; padding-top: 30px; }
+
+span.hovertags { visibility: hidden; color: grey; }
+
+a:hover + span.hovertags { visibility: visible; }
+
+.index { float: left; min-width: 300px; }
+
+.indexContainer { margin-top: -30px; }
+
+::selection { background: #fec; }
+
+::-moz-selection { background: #fec; }
+
+time {
+  color: #888;
+  float: right;
+  text-decoration: italic;
+}
+
+#twitter_div {
+  font-family: helvetica, arial;
+  border: 2px #ca8 solid;
+  padding: .4em;
+  margin: 1em;
+  background: #fec;
+  float: right;
+  width: 200px;
+  text-align: center;
+}
+
+.postItNote {
+  font-family: helvetica, arial;
+  border: 2px #ca8 solid;
+  padding: .4em;
+  margin: 1em;
+  background: #fec;
+  float: right;
+  width: 175px;
+  text-align: left;
+}
+
+.timestamp {
+  color: maroon;
+  float: right;
+  text-decoration: italic;
+  font-size: 1rem;
+  padding:.3em;
+}
