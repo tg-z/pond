@@ -1,8 +1,6 @@
 *, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-*, *::before, *::after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-
-body { color: black; font-family: "Helvetica", sans-serif; font-size: 1.1rem; background-color: #F0F8FF; line-height: 1.2; height: 100%; /*-webkit-font-smoothing: antialiased;*/max-width: 70ch; padding: 2ch; margin: auto; }
+body { color: black; font-family: "Helvetica", sans-serif; font-size: 1.1rem; background-color: #F0F8FF; line-height: 1.2; height: 100%; /*-webkit-font-smoothing: antialiased;*/max-width: 90ch; padding: 2ch; margin: auto; }
 
 tr, td { font-size: 1.1rem; line-height: 1.2; }
 
@@ -12,7 +10,9 @@ a { color: black; text-decoration: underline; }
 
 a:hover { text-shadow: 1px 1px 8px grey; transition: 0.2s all ease; }
 
-blockquote { text-align: justify; }
+/* blockquote { text-align: justify; } */
+
+blockquote{margin-right: 0; margin-left: 0; padding: 0 1em; color: #777; border-left: 0.25em solid #ddd; }
 
 svg { max-width: 100%; width: 2em; }
 
@@ -24,7 +24,18 @@ main { padding: 0 40px; max-width: 100vh; min-height: 80%; }
 
 .container { max-width: 100vh; margin: 0 auto; }
 
-footer { text-align: center; padding: 40px; clear: both; position: relative; display: block; }
+footer {
+  border-top: 0.1rem dashed;
+  padding-top: 1em;
+  font-size: 0.75em;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.5em;
+  --text-opacity: 1;
+  color: #718096;
+}
+
+/* footer { text-align: center; padding: 40px; clear: both; position: relative; display: block; } */
 
 ol { list-style-type: none; padding: 1rem 0; }
 
@@ -50,9 +61,13 @@ a:hover + span.hovertags { visibility: visible; }
 
 .indexContainer { margin-top: -30px; }
 
-::selection { background: #fec; }
+/* ::selection { background: #fec; } */
 
-::-moz-selection { background: #fec; }
+/* ::-moz-selection { background: #fec; } */
+
+/* .outer-links, a { */
+/*   cursor: alias; */
+/* } */
 
 time {
   color: #888;
