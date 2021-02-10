@@ -4,7 +4,9 @@ body { color: black; font-family: "Helvetica", sans-serif; font-size: 1.1rem; ba
 
 tr, td { font-size: 1.1rem; line-height: 1.2; }
 
-h1, h2, h3, h4{ margin-top: 30px; }
+h1, h2, h3, h4 {
+  margin-top: 30px;
+}
 
 a { color: black; text-decoration: underline; }
 
@@ -12,7 +14,9 @@ a:hover { text-shadow: 1px 1px 8px grey; transition: 0.2s all ease; }
 
 /* blockquote { text-align: justify; } */
 
-blockquote{margin-right: 0; margin-left: 0; padding: 0 1em; color: #777; border-left: 0.25em solid #ddd; }
+blockquote {
+  margin-right: 0; margin-left: 0; padding: 0 1em; color: #777; border-left: 0.25em solid #ddd;
+}
 
 svg { max-width: 100%; width: 2em; }
 
@@ -26,6 +30,7 @@ main { padding: 0 40px; max-width: 100vh; min-height: 80%; }
 
 footer {
   border-top: 0.1rem dashed;
+  margin: 5px;
   padding-top: 1em;
   font-size: 0.75em;
   display: flex;
@@ -37,7 +42,9 @@ footer {
 
 /* footer { text-align: center; padding: 40px; clear: both; position: relative; display: block; } */
 
-ol { list-style-type: none; padding: 1rem 0; }
+/* ol { */
+/*   padding: 1rem 0; */
+/* } */
 
 ul { list-style: circle; }
 
@@ -50,6 +57,16 @@ th, td { padding: 5px; text-align: left; }
 td { height: 50px; vertical-align: center; text-align: center; }
 
 table { width: 100%; }
+
+img {
+  display: block;
+  padding 5px 5px 5px 5px;
+  margin: auto;
+  vertical-align: middle;
+  border-radius: 2px;
+  max-width: 90%;
+  height: auto;
+}
 
 .header { text-align: center; margin: 0 auto; padding-top: 30px; }
 
