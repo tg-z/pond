@@ -95,9 +95,9 @@ footer {
 /*   padding: 1rem 0; */
 /* } */
 
-ul {
-  list-style: circle;
-}
+/* ul { */
+/*   list-style: circle; */
+/* } */
 
 ul.noPoints {
   list-style: none;
