@@ -19,3 +19,4 @@
 2020-10-20T03:02:33-07:00	pre-release of arena-chan-dl can be found here https://github.com/tg-z/arena-chan-dl
 2020-10-20T03:04:18-07:00	and if you have node, run $ npm i -g arena-chan-dl
 2020-12-11T06:35:26-08:00	so far enjoying this plain text mood tracker https://git.sr.ht/~antoniogurgel/mood
+2021-02-18T12:43:06-08:00	haikyuu!! is definitely a comfort anime
