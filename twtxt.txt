@@ -20,3 +20,4 @@
 2020-10-20T03:04:18-07:00	and if you have node, run $ npm i -g arena-chan-dl
 2020-12-11T06:35:26-08:00	so far enjoying this plain text mood tracker https://git.sr.ht/~antoniogurgel/mood
 2021-02-18T12:43:06-08:00	haikyuu!! is definitely a comfort anime
+2021-05-03T10:36:54-07:00	demon slayer movie was so good
